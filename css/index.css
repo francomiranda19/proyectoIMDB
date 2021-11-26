@@ -30,13 +30,14 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#titulo {
+.blanco-sombreado {
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #botones {
     margin-top: 15px;
+    
 }
 
 #boton1, #boton2, #boton3 {
@@ -53,15 +54,24 @@ body {
 #fotos {
     display: flex;
     position: absolute;
-    bottom: 8vh;
+    bottom: 1vh;
 }
 
 .foto img {
     float: left;
     width: 45%;
     border-radius: 150px;
-    border: 10px solid white;
+    border: 5px solid white;
     margin: 0px 90px;
+}
+
+.nombre {
+    font-size: 25px;
+}
+
+#fotos .nombre {
+    float: left;
+    margin: 0px 0px 0px 25%;
 }
 
 @keyframes blurIn {

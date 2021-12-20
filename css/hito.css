@@ -39,9 +39,9 @@
     width: 172px;
 }
 
-#header-hito2 {
+#header-hito2, #header-hito3 {
     text-align: center;
     position: relative;
     left: 5%;
-    width: 95%;
+    width: 92vw;
 }
